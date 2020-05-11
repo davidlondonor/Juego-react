@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 
 function Baraja() {
   return (
-    <div className="Baraja">
+    <div className="baraja">
      
         <p>
           hola desde baraja

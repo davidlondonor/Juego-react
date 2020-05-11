@@ -1,4 +1,23 @@
 .instrucciones {
         font-family: sans-serif;
         text-align: center;
+        background-color:#3497FD;
+        width:80vw;
+        heigth: auto;
+        margin: 0 auto;
+        border-radius:3rem;
+        padding:1rem;vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-property: color;
+    transition-duration: 0.3s;
     }
+
+    .botonesInferiores {
+    width: 40vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}

@@ -1,5 +1,36 @@
-.inicio {
-    font-family: sans-serif;
-    text-align: center;
-}
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
 
+.inicio {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: ;
+}
+.tituloPrincipal {
+    background-color: #D5E9FD;   
+     width: 30vw;
+    height: 15vh; 
+    padding:1.3rem 1.5rem;
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #6B54DD;
+    border-radius:30rem
+}
+.botonesInferiores {
+    width: 40vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.input div {
+    padding-bottom: 2rem;
+    border-radius: 50%;
+    background-color: #D5E9FD;     
+}
+.imagen{
+    width:80vw
+}

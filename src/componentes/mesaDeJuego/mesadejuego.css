@@ -1,0 +1,14 @@
+.MesaDeJuego {
+    background-color: #FF748F;
+    width: 30rem;
+height:4rem;
+margin: 0 auto;
+padding:2rem;
+border-radius:2rem;
+display:flex;
+justify-content: space-between;
+align-items:center; font-family: sans-serif;
+}
+.imgBaraja {
+    width:10rem;
+}

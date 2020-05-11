@@ -1,28 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+// import ReactDOM from "react-dom";
 //componentes hijos
-import MesaDeJuego from '../mesaDeJuego/MesaDeJuego';
-import Baraja from '../bajara/Baraja';
-import Hero from '../hero/Hero';
-import Campeones from '../campeones/Campeones';
+import MesaDeJuego from "../mesaDeJuego/MesaDeJuego";
+import Baraja from "../bajara/Baraja";
+import Hero from "../hero/Hero";
+import Campeones from "../campeones/Campeones";
+import SalaDeJuegoCss from "./salaDeJuegoCss.css";
 
 function SalaDeJuego() {
-  return (
-   <section>
-        <div className="SalaDeJuego">
-            <p>
-                 hola desde Sala de Juego
-            </p>     
-        </div>
-        <div>
-            <MesaDeJuego />
-            <Baraja />
-            <Hero />
-            <Campeones />
-        </div>
-    </section>
-
-  );
+    return (
+        <section>
+            <div className="SalaDeJuego">
+                <p>hola desde Sala de Juego</p>
+            </div>
+            <div>
+                <MesaDeJuego />
+                <Baraja />
+                <Hero />
+                <Campeones />
+               
+            </div>
+        </section>
+    );
 }
 
 export default SalaDeJuego;
